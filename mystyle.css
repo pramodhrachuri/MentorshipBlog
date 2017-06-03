@@ -1,0 +1,191 @@
+body {
+	
+	font-family: "Eras ITC";
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+}
+
+ul { 
+	list-style-type: none; 
+	margin: 0px;
+	padding: 0px 0px 0px 100px;
+	overflow: hidden;
+	background-color: #ba68c8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+li a {
+	float: left;
+	padding: 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover { 
+	background-color : #ab47bc;
+}	
+
+#right {
+	float: right;
+	padding: 15px 120px 5px 20px;
+}
+
+input[type=text]{
+	width: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-image: url('search.png');
+	background-size: contain;
+	background-position: right;
+	background-color: white;
+	background-repeat: no-repeat;
+	padding: 5px 40px 5px 10px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+	width: 300px;	
+}
+
+.leftIcon {
+	
+	margin-top: -22px;
+	height: 600px;
+	background-size: 300px;
+	background-position: 20% 50%;
+	background-repeat: no-repeat;
+	
+}
+
+.rightIcon {
+	
+	margin-top: -22px;
+	height: 600px;
+	background-size: 300px;
+	background-position: 80% 50%;
+	background-repeat: no-repeat;
+	
+}
+
+.rightBrief {
+	
+	color: white;
+	width: 600px;
+	height: 200px;
+	position: relative;
+	top: 200px;
+	left: 600px;
+	
+}
+
+.leftBrief {
+	
+	color: white;
+	width: 600px;
+	height: 200px;
+	position: relative;
+	top: 200px;
+	left: 150px;
+	
+}
+
+#message #messageGymkhana {
+	
+	display: block;
+	width: 100%;
+	
+}
+#acad {
+	
+	background-color: #e46b60;
+	background-image: url('images/acad.png');
+	
+}
+
+#hostel {
+	
+	background-color: #677aeb;
+	background-image: url('images/hostel.png');
+	
+}
+
+
+
+#around {
+	
+	background-color: #52df52;
+	background-image: url('images/around.png');
+	
+}
+
+#nss {
+	
+	background-color: #f6902d;
+	background-image: url('images/nss.png');
+	
+}
+
+#download {
+	
+	background-color: #34d5f2;
+	background-image: url('images/download.png');
+	
+}
+
+#footer {
+	
+	position: obselete;
+	bottom: 0;
+	margin-top: -20px;
+	height: 400px;
+	background-color: #707070;
+	color: white;
+	background-image: url('images/director.png');
+	background-repeat: no-repeat;
+	background-position: 35% 60%;
+	
+}
+
+#directorMessage {
+	
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: 80px;
+	left: 100px;
+	float: left;
+	display: block;
+	
+}
+
+.social {
+	
+	width: 30px;
+	
+}
+
+#contact {
+	
+	float: left;
+	position: relative;
+	top: 80px;
+	left: 400px;
+	display: block;
+}
+
+#address {
+	
+	display: block;
+	position: relative;
+	top: 80px;
+	float: left;
+	left: 500px;
+}
